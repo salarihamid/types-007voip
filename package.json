@@ -6,10 +6,7 @@
 		"interfaces",
 		"iplogin"
 	],
-	"files": [
-		"types/**/*.d.ts",
-		"tsconfig.json"
-	],
+	"types": "index.d.ts",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/salarihamid/types-007voip.git"
