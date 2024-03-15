@@ -1,0 +1,17 @@
+{
+	"name": "@types/007voip",
+	"version": "1.0.0",
+	"description": "Interfaces for 007Voip",
+	"keywords": [
+		"interfaces",
+		"iplogin"
+	],
+	"author": "VOIP SYSTEMS A.G.",
+	"license": "proprietary",
+	"devDependencies": {
+		"@types/amqplib": "^0.10.5",
+		"@types/node": "^20.11.28",
+		"typescript": "^5.4.2",
+
+	}
+}
