@@ -1,3 +1,4 @@
+import {Socket} from "socket.io";
 import {SYSTEM_ROLES} from "../common";
 
 export interface SocketOnlineUser {
@@ -23,4 +24,16 @@ export interface UserTokenVerifyInterface {
         role: SYSTEM_ROLES,
         name: string
     }
+}
+
+export interface AuthenticatedSocket extends Socket {
+    userId: string
+}
+
+export interface SocketInterface {
+
+    handleConnection(socket: Socket): void;
+
+    middlewareImplementation?(socket: Socket, next: any): void
+
 }
