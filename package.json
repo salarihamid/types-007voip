@@ -7,7 +7,7 @@
 		"iplogin"
 	],
 	"main": "",
-	"types": "types/common.d.ts",
+	"types": "types/**/*.d.ts",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/salarihamid/types-007voip.git"

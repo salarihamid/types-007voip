@@ -8,7 +8,3 @@ export const enum NODE_ENV {
     development = "development",
     test = "test"
 }
-
-interface TheTestInterface {
-    new : string
-}
