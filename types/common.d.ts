@@ -1,4 +1,4 @@
-declare namespace Common {
+export namespace Common {
     enum NODE_ENV {
         production = "production",
         development = "development",
