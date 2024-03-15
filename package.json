@@ -15,6 +15,7 @@
 	"author": "VOIP SYSTEMS A.G.",
 	"license": "proprietary",
 	"dependencies": {
+		"@types/amqplib": "*",
 		"socket.io": "*"
 	}
 }
