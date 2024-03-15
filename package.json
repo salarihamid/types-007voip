@@ -10,7 +10,8 @@
 	"types": "types/**/*.d.ts",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/salarihamid/types-007voip.git"
+		"url": "git+https://github.com/salarihamid/types-007voip.git",
+		"directory": "007voip"
 	},
 	"author": "VOIP SYSTEMS A.G.",
 	"license": "proprietary",
