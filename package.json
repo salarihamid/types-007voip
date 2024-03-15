@@ -1,5 +1,5 @@
 {
-	"name": "007voip",
+	"name": "@types/007voip",
 	"version": "1.0.0",
 	"description": "Interfaces for 007Voip",
 	"keywords": [
@@ -11,7 +11,7 @@
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/salarihamid/types-007voip.git",
-		"directory": "007voip"
+		"directory": "types/007voip"
 	},
 	"author": "VOIP SYSTEMS A.G.",
 	"license": "proprietary",
